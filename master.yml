@@ -1,5 +1,7 @@
 ---
 - hosts: 10.103.0.73
+  roles:
+     - ansible-role-security
   tasks:
       - debug:
            msg: "Finished"
